@@ -1,16 +1,15 @@
-def calculate():
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
-    op = input("Choose operation (+, -, *, /): ")
-    if op == '+':
-        print(f"Result: {num1 + num2}")
-    elif op == '-':
-        print(f"Result: {num1 - num2}")
-    elif op == '*':
-        print(f"Result: {num1 * num2}")
-    elif op == '/':
-        print(f"Result: {num1 / num2 if num2 != 0 else 'Error: Division by zero'}")
-    else:
-        print("Invalid operation")
+print("Question Number 1")
+x = input('earth how many contnent have:  ')
+if x == "7":
+    print("                                                ohh you are so claver ")
+else:
+    print("wrong answer try again")
 
-calculate()
+
+
+print("Question Number 2")
+y =input("what is the sum of 44 + 66:   ")
+if y == "100":
+    print("                                               that is correct great!!")
+else:
+    print("wrong solution sorry")
